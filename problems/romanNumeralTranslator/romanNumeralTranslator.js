@@ -14,8 +14,9 @@
  * translateRomanNumeral("IV") // 4
  *
  * You should return `null` on invalid input.
- */
-
+ */// Input roman numbers
+  // output integers
+  // have to change the roman number into an integer
 var DIGIT_VALUES = {
   I: 1,
   V: 5,
@@ -27,7 +28,17 @@ var DIGIT_VALUES = {
 };
 
 var translateRomanNumeral = function(romanNumeral) {
-// TODO: Implement me!
+   if(typeof romanNumeral !== "string"){
+     return null;
+   } var num = 0;
+     var romanNumeral === romanNumber.split('');
+     for( var i = 0; i < romanNumeral.length; i++){
+       if(var newRoman = romanNumeral[i]){
+
+       }
+     }
+   }
+
 /* START SOLUTION */
   /* END SOLUTION */
 };
